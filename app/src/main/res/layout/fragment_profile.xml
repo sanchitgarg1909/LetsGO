@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/office1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Lists"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Favourites"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Recently Viewed"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

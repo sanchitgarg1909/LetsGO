@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LetsGO</string>
+    <string name="facebook_app_id">1629237113993536</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyDr3mFpF4losGflog3BTeaalPfXgxEf9g8
+    </string>
+</resources>
